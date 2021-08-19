@@ -1,10 +1,21 @@
 {
+  "name": "sms-doc",
+  "version": "1.1.1",
+  "description": "This is a sms doc file.",
+  "main": "index.js",
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"
   },
+  "keywords": [],
+  "author": "wanlumin",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  },
   "dependencies": {
-    "vuepress": "^1.5.2",
-    "webpack-dev-server": "^3.11.0"
-  }
+    "core-js": "^2.6.11",
+    "vuepress-theme-yilia-plus": "^1.0.0"
+  },
+  "creator": ">=2.0.0"
 }
